@@ -25,6 +25,52 @@ By the end of the session, you’ll be able to apply these concepts to automate 
 
 ---
 
+# Resources and Getting Started with Google Apps Script
+
+## **Google Apps Script Documentation and Resources**
+
+Before we begin, here are some useful resources to help you get familiar with Google Apps Script:
+
+- **[Google Apps Script Overview](https://developers.google.com/apps-script/overview)**: An introduction to what Google Apps Script is and how it can automate tasks within Google Workspace.
+- **[Apps Script Documentation](https://developers.google.com/apps-script/guides)**: Official documentation that covers everything from getting started to advanced techniques.
+- **[Apps Script Services](https://developers.google.com/apps-script/reference)**: A reference for the different services available in Google Apps Script, including `SpreadsheetApp`, `MailApp`, and more.
+- **[Google Apps Script Tutorial](https://developers.google.com/apps-script/guides/sheets)**: A tutorial to learn how to automate tasks with Google Sheets, similar to what we will cover.
+
+---
+
+## **Getting Started with Google Apps Script**
+
+### Step 1: Create a New Apps Script Project
+
+You can start a new Google Apps Script project directly in your browser. Follow these steps:
+
+1. Open a new browser tab and type `script.new` in the address bar, then press **Enter**.
+2. This will open a new Google Apps Script project linked to your Google account.
+3. You'll see the script editor, where you can write your Apps Script code.
+
+### Step 2: Set Up Your First Script
+
+Once you're in the script editor, you can follow these steps to set up and run your first script:
+
+1. Replace the default `myFunction()` in the editor with the code snippets provided in each step.
+2. After writing your code, click the **Save** button at the top left.
+3. To run your script:
+   - Click the **Select function** dropdown (next to the Run button) and select `main()` (or the function you're testing).
+   - Click the **Run** button (the triangle play icon).
+4. If it's your first time running the script, you’ll be prompted to authorize the script to access your Google account resources. Follow the prompts to allow access.
+
+### Step 3: Viewing the Output or Logs
+
+1. You can check the output of your script using the **Logger** tool.
+2. After running the script, click on **View** in the menu bar and select **Logs**.
+3. The logs will show any `Logger.log()` statements, which can help you debug and confirm your code is working as expected.
+
+---
+
+Once you’ve followed these steps, you’re ready to start automating tasks using Google Apps Script! Follow along with the steps below to learn how to create PDFs, send emails, and more.
+
+___
+
 ## **Step 1: Setting Up Variables and Printing to Console**
 
 **Objective**: Set up custom variables (such as sheet ID, email, etc.) and use `Logger.log()` to print these values to the Apps Script console.
